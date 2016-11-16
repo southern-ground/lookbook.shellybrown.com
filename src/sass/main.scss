@@ -101,12 +101,21 @@ body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
 }
 
 section.page {
-  width: 100vw;
+  width: 100%;
   height: auto;
   img {
-    width: 100vw;
+    width: 100%;
     height: auto;
   }
+}
+
+.container{
+  overflow:hidden;
+  width: 100%;
+  max-width: 990px;
+  height: 450px;
+  margin: 0 auto;
+
 }
 
 #Content {
