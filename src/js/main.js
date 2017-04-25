@@ -4,8 +4,7 @@ $().ready(function(){
     com.shellybrown = com.shellybrown || {};
 
     var Lookbook = function (el) {
-        this.selector = el;
-        this.$el = $(this.selector);
+        this.selector = el || "#Content";
     };
 
     Lookbook.prototype = {
@@ -27,18 +26,19 @@ $().ready(function(){
                 pagination: false,
                 updateURL: false,
                 keyboard: true,
-                responsiveFallback: false,
-                direction: "horizontal"
+                responsiveFallback: false
             });
 
         },
         init: function () {
-
+            this.$el = $(this.selector);
             this.imagesQueued = 0;
+            this.params = this.getQueryParams();
+            this.dataFile = (this.params.y || "2017") + "_" + (this.params.s || "spring") + ".json";
             var scope = this;
             $.ajax({
                 method: "GET",
-                url: "data.json"
+                url: "./data/" + this.dataFile
             })
                 .done(function (msg) {
                     scope.dataLoaded(msg);
@@ -82,10 +82,70 @@ $().ready(function(){
                 img.src = _scope.imagePath + item.image;
             });
 
+        },
+        getQueryParams: function(url){
+            // get query string from url (optional) or window
+            var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
+
+            // we'll store the parameters here
+            var obj = {};
+
+            // if query string exists
+            if (queryString) {
+
+                // stuff after # is not part of query string, so get rid of it
+                queryString = queryString.split('#')[0];
+
+                // split our query string into its component parts
+                var arr = queryString.split('&');
+
+                for (var i=0; i<arr.length; i++) {
+                    // separate the keys and the values
+                    var a = arr[i].split('=');
+
+                    // in case params look like: list[]=thing1&list[]=thing2
+                    var paramNum = undefined;
+                    var paramName = a[0].replace(/\[\d*\]/, function(v) {
+                        paramNum = v.slice(1,-1);
+                        return '';
+                    });
+
+                    // set parameter value (use 'true' if empty)
+                    var paramValue = typeof(a[1])==='undefined' ? true : a[1];
+
+                    // (optional) keep case consistent
+                    paramName = paramName.toLowerCase();
+                    paramValue = paramValue.toLowerCase();
+
+                    // if parameter name already exists
+                    if (obj[paramName]) {
+                        // convert value to array (if still string)
+                        if (typeof obj[paramName] === 'string') {
+                            obj[paramName] = [obj[paramName]];
+                        }
+                        // if no array index number specified...
+                        if (typeof paramNum === 'undefined') {
+                            // put the value on the end of the array
+                            obj[paramName].push(paramValue);
+                        }
+                        // if array index number specified...
+                        else {
+                            // put the value at that index number
+                            obj[paramName][paramNum] = paramValue;
+                        }
+                    }
+                    // if param name doesn't exist yet, set it
+                    else {
+                        obj[paramName] = paramValue;
+                    }
+                }
+            }
+
+            return obj;
         }
     };
 
-    com.shellybrown.lookbook = new Lookbook('#Content');
+    com.shellybrown.lookbook = new Lookbook();
     com.shellybrown.lookbook.init();
 
 });
