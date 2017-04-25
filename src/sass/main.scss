@@ -107,13 +107,20 @@ section.page {
     width: 100%;
     height: auto;
   }
+  .instructions{
+    text-align: center;
+    color: #AD8C2F;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  }
 }
 
-.container{
-  overflow:hidden;
-  width: 100%;
-  max-width: 990px;
-  height: 450px;
+.container {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
 
 }
@@ -126,5 +133,4 @@ section.page {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }

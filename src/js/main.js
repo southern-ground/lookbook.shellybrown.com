@@ -14,6 +14,9 @@ $().ready(function(){
             this.$el.empty();
 
             for(var i = 0; i < this.pages.length; i++){
+                if(i === 0){
+                    this.pages[i].$el.append('<div class="instructions">Swipe up or down <em>or</em> use your Up and Down arrow keys.</div>');
+                }
                 this.$el.append(this.pages[i].$el);
             }
 
