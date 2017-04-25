@@ -1,7 +1,5 @@
 archive
 node_modules
 main.css
-dist/data/2015_fall.json
-dist/data/2016_spring.json
-dist/data/2017_fall.json
-dist/data/2017_spring.json
+dist
+src/css/
