@@ -1,0 +1,66 @@
+{
+  "image_path": "http://lookbook.shellybrown.com.s3-website-us-west-2.amazonaws.com/2015/fall/",
+  "formFactor": "2:1",
+  "pages":[
+    {
+      "page": 1,
+      "image": "shellybrown-lookbook-final.jpg"
+    },
+    {
+      "page": 2,
+      "image": "shellybrown-lookbook-final2.jpg"
+    },
+    {
+      "page": 3,
+      "image": "shellybrown-lookbook-final3.jpg"
+    },
+    {
+      "page": 4,
+      "image": "shellybrown-lookbook-final4.jpg"
+    },
+    {
+      "page": 5,
+      "image": "shellybrown-lookbook-final5.jpg"
+    },
+    {
+      "page": 6,
+      "image": "shellybrown-lookbook-final6.jpg"
+    },
+    {
+      "page": 7,
+      "image": "shellybrown-lookbook-final7.jpg"
+    },
+    {
+      "page": 8,
+      "image": "shellybrown-lookbook-final8.jpg"
+    },
+    {
+      "page": 9,
+      "image": "shellybrown-lookbook-final9.jpg"
+    },
+    {
+      "page": 10,
+      "image": "shellybrown-lookbook-final10.jpg"
+    },
+    {
+      "page": 11,
+      "image": "shellybrown-lookbook-final11.jpg"
+    },
+    {
+      "page": 12,
+      "image": "shellybrown-lookbook-final12.jpg"
+    },
+    {
+      "page": 13,
+      "image": "shellybrown-lookbook-final13.jpg"
+    },
+    {
+      "page": 14,
+      "image": "shellybrown-lookbook-final14.jpg"
+    },
+    {
+      "page": 15,
+      "image": "shellybrown-lookbook-final15.jpg"
+    }
+  ]
+}

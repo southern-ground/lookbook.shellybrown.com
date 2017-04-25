@@ -1,0 +1,86 @@
+{
+  "image_path": "http://lookbook.shellybrown.com.s3-website-us-west-2.amazonaws.com/2016/spring/",
+  "formFactor": "2:1",
+  "pages":[
+    {
+      "page": 1,
+      "image": "shellybrown-lookbook-spring.jpg"
+    },
+    {
+      "page": 2,
+      "image": "shellybrown-lookbook-spring2.jpg"
+    },
+    {
+      "page": 3,
+      "image": "shellybrown-lookbook-spring3.jpg"
+    },
+    {
+      "page": 4,
+      "image": "shellybrown-lookbook-spring4.jpg"
+    },
+    {
+      "page": 5,
+      "image": "shellybrown-lookbook-spring5.jpg"
+    },
+    {
+      "page": 6,
+      "image": "shellybrown-lookbook-spring6.jpg"
+    },
+    {
+      "page": 7,
+      "image": "shellybrown-lookbook-spring7.jpg"
+    },
+    {
+      "page": 8,
+      "image": "shellybrown-lookbook-spring8.jpg"
+    },
+    {
+      "page": 9,
+      "image": "shellybrown-lookbook-spring9.jpg"
+    },
+    {
+      "page": 10,
+      "image": "shellybrown-lookbook-spring10.jpg"
+    },
+    {
+      "page": 11,
+      "image": "shellybrown-lookbook-spring11.jpg"
+    },
+    {
+      "page": 12,
+      "image": "shellybrown-lookbook-spring12.jpg"
+    },
+    {
+      "page": 13,
+      "image": "shellybrown-lookbook-spring13.jpg"
+    },
+    {
+      "page": 14,
+      "image": "shellybrown-lookbook-spring14.jpg"
+    },
+    {
+      "page": 15,
+      "image": "shellybrown-lookbook-spring15.jpg"
+    },
+    {
+      "page": 16,
+      "image": "shellybrown-lookbook-spring16.jpg"
+    },
+    {
+      "page": 17,
+      "image": "shellybrown-lookbook-spring17.jpg"
+    },
+    {
+      "page": 18,
+      "image": "shellybrown-lookbook-spring18.jpg"
+    },
+    {
+      "page": 19,
+      "image": "shellybrown-lookbook-spring19.jpg"
+    },
+    {
+      "page": 20,
+      "image": "shellybrown-lookbook-spring20.jpg"
+    }
+  ]
+}

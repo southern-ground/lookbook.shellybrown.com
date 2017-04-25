@@ -1,0 +1,86 @@
+{
+  "image_path": "http://lookbook.shellybrown.com.s3-website-us-west-2.amazonaws.com/2017/fall/",
+  "formFactor": "72:45",
+  "pages":[
+    {
+      "page": 1,
+      "image": "sb-fall2017lookbook-01.jpg"
+    },
+    {
+      "page": 2,
+      "image": "sb-fall2017lookbook-012.jpg"
+    },
+    {
+      "page": 3,
+      "image": "sb-fall2017lookbook-013.jpg"
+    },
+    {
+      "page": 4,
+      "image": "sb-fall2017lookbook-014.jpg"
+    },
+    {
+      "page": 5,
+      "image": "sb-fall2017lookbook-015.jpg"
+    },
+    {
+      "page": 6,
+      "image": "sb-fall2017lookbook-016.jpg"
+    },
+    {
+      "page": 7,
+      "image": "sb-fall2017lookbook-017.jpg"
+    },
+    {
+      "page": 8,
+      "image": "sb-fall2017lookbook-018.jpg"
+    },
+    {
+      "page": 9,
+      "image": "sb-fall2017lookbook-019.jpg"
+    },
+    {
+      "page": 10,
+      "image": "sb-fall2017lookbook-0110.jpg"
+    },
+    {
+      "page": 11,
+      "image": "sb-fall2017lookbook-0111.jpg"
+    },
+    {
+      "page": 12,
+      "image": "sb-fall2017lookbook-0112.jpg"
+    },
+    {
+      "page": 13,
+      "image": "sb-fall2017lookbook-0113.jpg"
+    },
+    {
+      "page": 14,
+      "image": "sb-fall2017lookbook-0114.jpg"
+    },
+    {
+      "page": 15,
+      "image": "sb-fall2017lookbook-0115.jpg"
+    },
+    {
+      "page": 16,
+      "image": "sb-fall2017lookbook-0116.jpg"
+    },
+    {
+      "page": 17,
+      "image": "sb-fall2017lookbook-0117.jpg"
+    },
+    {
+      "page": 18,
+      "image": "sb-fall2017lookbook-0118.jpg"
+    },
+    {
+      "page": 19,
+      "image": "sb-fall2017lookbook-0119.jpg"
+    },
+    {
+      "page": 20,
+      "image": "sb-fall2017lookbook-0120.jpg"
+    }
+  ]
+}
